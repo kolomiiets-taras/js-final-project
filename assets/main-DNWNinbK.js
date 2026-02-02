@@ -97,4 +97,4 @@
         </div>
       </li>
     `}).join("");A.innerHTML=t,A.querySelectorAll("[data-start]").forEach(s=>{s.addEventListener("click",()=>{const a=s.dataset.start;B&&B(a)})})}function Be(){if(A.innerHTML="",L){L.hidden=!1;const e=L.querySelector("[data-search-keyword]");e&&(e.textContent=d?`"${d}"`:"")}}function je(){L&&(L.hidden=!0)}function Ve(){ee({container:se,currentPage:m,totalPages:R,onPageChange:e=>{m=e,P()}})}let U;function Ne(){clearTimeout(U),U=setTimeout(()=>{y?P():S()},250)}const ze=document.querySelector("[data-filters-section]")!==null,Ue=document.querySelector("[data-favorites-list]")!==null;function Ye(){ie(),oe(),ye(),Se(),qe(),ze&&De(),Ue&&Qe()}function De(){Ae(re)}function re(e){G(e)}function Qe(){const e=document.querySelector("[data-favorites-list]"),t=document.querySelector("[data-favorites-empty]");e&&K(e,t,re,()=>{})}document.addEventListener("DOMContentLoaded",Ye);
-//# sourceMappingURL=main-Cf07CyvM.js.map
+//# sourceMappingURL=main-DNWNinbK.js.map
