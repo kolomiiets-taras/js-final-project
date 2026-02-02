@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <defs>
+    <!-- Logo YOUR ENERGY -->
+    <symbol id="logo" viewBox="0 0 132 24" fill="none">
+      <text x="0" y="18" font-family="DM Sans" font-weight="700" font-size="16" fill="currentColor">YOUR ENERGY</text>
+    </symbol>
+
+    <!-- Sun icon for hero -->
+    <symbol id="icon-sun" viewBox="0 0 59 59" fill="none">
+      <circle cx="29.5" cy="29.5" r="8" stroke="currentColor" stroke-width="2"/>
+      <line x1="29.5" y1="0" x2="29.5" y2="10" stroke="currentColor" stroke-width="2"/>
+      <line x1="29.5" y1="49" x2="29.5" y2="59" stroke="currentColor" stroke-width="2"/>
+      <line x1="0" y1="29.5" x2="10" y2="29.5" stroke="currentColor" stroke-width="2"/>
+      <line x1="49" y1="29.5" x2="59" y2="29.5" stroke="currentColor" stroke-width="2"/>
+      <line x1="8.69" y1="8.69" x2="15.76" y2="15.76" stroke="currentColor" stroke-width="2"/>
+      <line x1="43.24" y1="43.24" x2="50.31" y2="50.31" stroke="currentColor" stroke-width="2"/>
+      <line x1="8.69" y1="50.31" x2="15.76" y2="43.24" stroke="currentColor" stroke-width="2"/>
+      <line x1="43.24" y1="15.76" x2="50.31" y2="8.69" stroke="currentColor" stroke-width="2"/>
+    </symbol>
+
+    <!-- Menu burger -->
+    <symbol id="icon-menu" viewBox="0 0 24 24" fill="none">
+      <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Close X -->
+    <symbol id="icon-close" viewBox="0 0 24 24" fill="none">
+      <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Search -->
+    <symbol id="icon-search" viewBox="0 0 24 24" fill="none">
+      <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+      <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- Arrow right -->
+    <symbol id="icon-arrow" viewBox="0 0 24 24" fill="none">
+      <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Arrow up for scroll to top -->
+    <symbol id="icon-arrow-up" viewBox="0 0 24 24" fill="none">
+      <path d="M12 19V5M12 5L5 12M12 5L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Star filled -->
+    <symbol id="icon-star" viewBox="0 0 24 24" fill="none">
+      <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor"/>
+    </symbol>
+
+    <!-- Star empty -->
+    <symbol id="icon-star-empty" viewBox="0 0 24 24" fill="none">
+      <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
+    </symbol>
+
+    <!-- Heart -->
+    <symbol id="icon-heart" viewBox="0 0 24 24" fill="none">
+      <path d="M20.84 4.61C20.3292 4.099 19.7228 3.69365 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69365 13.5708 4.099 13.06 4.61L12 5.67L10.94 4.61C9.9083 3.57831 8.50903 2.99871 7.05 2.99871C5.59096 2.99871 4.19169 3.57831 3.16 4.61C2.1283 5.64169 1.54871 7.04097 1.54871 8.5C1.54871 9.95903 2.1283 11.3583 3.16 12.39L4.22 13.45L12 21.23L19.78 13.45L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6054C22.3095 9.93789 22.4518 9.22249 22.4518 8.5C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.61Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Heart filled -->
+    <symbol id="icon-heart-filled" viewBox="0 0 24 24" fill="none">
+      <path d="M20.84 4.61C20.3292 4.099 19.7228 3.69365 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69365 13.5708 4.099 13.06 4.61L12 5.67L10.94 4.61C9.9083 3.57831 8.50903 2.99871 7.05 2.99871C5.59096 2.99871 4.19169 3.57831 3.16 4.61C2.1283 5.64169 1.54871 7.04097 1.54871 8.5C1.54871 9.95903 2.1283 11.3583 3.16 12.39L4.22 13.45L12 21.23L19.78 13.45L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6054C22.3095 9.93789 22.4518 9.22249 22.4518 8.5C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.61Z" fill="currentColor" stroke="currentColor" stroke-width="2"/>
+    </symbol>
+
+    <!-- Trash -->
+    <symbol id="icon-trash" viewBox="0 0 24 24" fill="none">
+      <path d="M3 6H5H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8 6V4C8 3.46957 8.21071 2.96086 8.58579 2.58579C8.96086 2.21071 9.46957 2 10 2H14C14.5304 2 15.0391 2.21071 15.4142 2.58579C15.7893 2.96086 16 3.46957 16 4V6M19 6V20C19 20.5304 18.7893 21.0391 18.4142 21.4142C18.0391 21.7893 17.5304 22 17 22H7C6.46957 22 5.96086 21.7893 5.58579 21.4142C5.21071 21.0391 5 20.5304 5 20V6H19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Running person -->
+    <symbol id="icon-run" viewBox="0 0 24 24" fill="none">
+      <circle cx="17" cy="4" r="2" fill="currentColor"/>
+      <path d="M15.59 13.51L14 16L10.17 14.42L7 23H4.83L7.5 14.5L5.17 13.08L4 16H2V14L4.59 9.42C4.84 8.96 5.32 8.67 5.83 8.67H9.83C10.26 8.67 10.67 8.86 10.95 9.18L12.5 11H16V13H14L15.59 13.51ZM9.52 5.17L11.67 3H16V5H12.83L9.52 8.33L9.52 5.17Z" fill="currentColor"/>
+    </symbol>
+
+    <!-- Dumbbell / Equipment -->
+    <symbol id="icon-dumbbell" viewBox="0 0 24 24" fill="none">
+      <path d="M6.5 6.5L17.5 17.5M6 12L12 6M12 18L18 12M4 8L8 4M16 20L20 16M3 11L5 9M19 15L21 13M9 5L11 3M13 21L15 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Quote icon -->
+    <symbol id="icon-quote" viewBox="0 0 24 24" fill="none">
+      <path d="M10 11H6C5.46957 11 4.96086 10.7893 4.58579 10.4142C4.21071 10.0391 4 9.53043 4 9V7C4 6.46957 4.21071 5.96086 4.58579 5.58579C4.96086 5.21071 5.46957 5 6 5H8C8.53043 5 9.03914 5.21071 9.41421 5.58579C9.78929 5.96086 10 6.46957 10 7V15C10 16.0609 9.57857 17.0783 8.82843 17.8284C8.07828 18.5786 7.06087 19 6 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M20 11H16C15.4696 11 14.9609 10.7893 14.5858 10.4142C14.2107 10.0391 14 9.53043 14 9V7C14 6.46957 14.2107 5.96086 14.5858 5.58579C14.9609 5.21071 15.4696 5 16 5H18C18.5304 5 19.0391 5.21071 19.4142 5.58579C19.7893 5.96086 20 6.46957 20 7V15C20 16.0609 19.5786 17.0783 18.8284 17.8284C18.0783 18.5786 17.0609 19 16 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Facebook -->
+    <symbol id="icon-facebook" viewBox="0 0 24 24" fill="none">
+      <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z" fill="currentColor"/>
+    </symbol>
+
+    <!-- Instagram -->
+    <symbol id="icon-instagram" viewBox="0 0 24 24" fill="none">
+      <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/>
+      <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/>
+      <circle cx="18" cy="6" r="1" fill="currentColor"/>
+    </symbol>
+
+    <!-- YouTube -->
+    <symbol id="icon-youtube" viewBox="0 0 24 24" fill="none">
+      <path d="M22.54 6.42C22.4212 5.94541 22.1793 5.51057 21.8386 5.15941C21.4979 4.80824 21.0707 4.55318 20.6 4.42C18.88 4 12 4 12 4C12 4 5.12 4 3.4 4.46C2.92925 4.59318 2.50198 4.84824 2.16131 5.19941C1.82064 5.55057 1.57875 5.98541 1.46 6.46C1.14521 8.20556 0.991235 9.97631 1 11.75C0.988687 13.537 1.14266 15.3213 1.46 17.08C1.59096 17.5398 1.83831 17.9581 2.17814 18.2945C2.51798 18.6308 2.93882 18.8738 3.4 19C5.12 19.46 12 19.46 12 19.46C12 19.46 18.88 19.46 20.6 19C21.0707 18.8668 21.4979 18.6118 21.8386 18.2606C22.1793 17.9094 22.4212 17.4746 22.54 17C22.8524 15.2676 23.0063 13.5103 23 11.75C23.0113 9.96295 22.8573 8.1787 22.54 6.42Z" fill="currentColor"/>
+      <path d="M9.75 15.02L15.5 11.75L9.75 8.48V15.02Z" fill="white"/>
+    </symbol>
+
+    <!-- Chevron left -->
+    <symbol id="icon-chevron-left" viewBox="0 0 24 24" fill="none">
+      <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Chevron right -->
+    <symbol id="icon-chevron-right" viewBox="0 0 24 24" fill="none">
+      <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Double chevron left -->
+    <symbol id="icon-chevrons-left" viewBox="0 0 24 24" fill="none">
+      <path d="M11 17L6 12L11 7M18 17L13 12L18 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Double chevron right -->
+    <symbol id="icon-chevrons-right" viewBox="0 0 24 24" fill="none">
+      <path d="M13 17L18 12L13 7M6 17L11 12L6 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Play -->
+    <symbol id="icon-play" viewBox="0 0 24 24" fill="none">
+      <polygon points="5 3 19 12 5 21 5 3" fill="currentColor"/>
+    </symbol>
+  </defs>
+</svg>
