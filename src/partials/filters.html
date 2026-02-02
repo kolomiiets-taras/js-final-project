@@ -1,0 +1,118 @@
+<section class="filters-section" data-filters-section>
+  <div class="container">
+    <div class="filters-header">
+      <div class="filters-title-wrapper">
+        <h2 class="filters-title">Exercises</h2>
+        <span class="filters-category-name" data-filters-category-name></span>
+      </div>
+
+      <div class="filters-search">
+        <form class="search-form" data-search-form>
+          <input
+            class="search-input"
+            type="text"
+            name="keyword"
+            placeholder="Search"
+            autocomplete="off"
+          />
+          <div class="search-buttons">
+            <button class="search-btn search-btn-clear" type="button" data-search-clear aria-label="Clear search">
+              <svg class="search-icon">
+                <use href="./img/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+            <button class="search-btn search-btn-submit" type="submit" aria-label="Search">
+              <svg class="search-icon">
+                <use href="./img/sprite.svg#icon-search"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="filters-buttons" data-filter-buttons>
+        <button class="filter-btn active" type="button" data-filter="Muscles">
+          Muscles
+        </button>
+        <button class="filter-btn" type="button" data-filter="Body parts">
+          Body parts
+        </button>
+        <button class="filter-btn" type="button" data-filter="Equipment">
+          Equipment
+        </button>
+      </div>
+    </div>
+
+    <div class="filters-content">
+      <aside class="sidebar">
+        <div class="quote-block" data-quote-block>
+          <div class="quote-header">
+            <div class="quote-title-wrapper">
+              <div class="quote-icon-wrapper">
+                <svg class="quote-icon">
+                  <use href="./img/sprite.svg#icon-run"></use>
+                </svg>
+              </div>
+              <h3 class="quote-title">Quote of the day</h3>
+            </div>
+            <svg class="quote-mark">
+              <use href="./img/sprite.svg#icon-quote"></use>
+            </svg>
+          </div>
+          <p class="quote-text" data-quote-text>
+            A lot of times I find that people who are blessed with the most talent don't ever develop that attitude, and the ones who aren't blessed in that way are the most competitive and have the biggest heart.
+          </p>
+          <p class="quote-author" data-quote-author>Tom Brady</p>
+        </div>
+
+        <div class="sidebar-image">
+          <img
+            src="./img/sidebar-image.jpg"
+            alt="Women in sportswear taking break from workout"
+            width="444"
+            height="auto"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="daily-norm-block">
+          <svg class="daily-norm-icon">
+            <use href="./img/sprite.svg#icon-dumbbell"></use>
+          </svg>
+          <p class="daily-norm-value">110 min</p>
+          <p class="daily-norm-label">Daily norm of sports</p>
+          <p class="daily-norm-text">
+            The World Health Organization recommends at least 150 minutes of moderate-intensity aerobic physical activity throughout the week for adults aged 18-64. However, what happens if we don't meet this satisfactory movement threshold? The answer is simple but unappealing: our bodies pay the price. Insufficient physical activity is one of the leading risk factors for premature death worldwide.
+          </p>
+        </div>
+      </aside>
+
+      <div class="filters-main">
+        <!-- Categories view -->
+        <div class="categories-view" data-categories-view>
+          <ul class="categories-list" data-categories-list>
+            <!-- Categories will be rendered by JavaScript -->
+          </ul>
+          <div class="pagination" data-categories-pagination>
+            <!-- Pagination will be rendered by JavaScript -->
+          </div>
+        </div>
+
+        <!-- Exercises view (hidden by default) -->
+        <div class="exercises-view" data-exercises-view hidden>
+          <ul class="exercises-list" data-exercises-list>
+            <!-- Exercises will be rendered by JavaScript -->
+          </ul>
+          <div class="exercises-empty" data-exercises-empty hidden>
+            <p class="exercises-empty-text">
+              Unfortunately, <span data-search-keyword></span> is not found among exercises in this category.
+            </p>
+          </div>
+          <div class="pagination" data-exercises-pagination>
+            <!-- Pagination will be rendered by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
